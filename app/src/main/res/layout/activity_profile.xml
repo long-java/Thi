@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="#4CAF50"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_avatar_remove"
+           android:layout_marginTop="75dp">
+        </ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phạm Tiến Long"
+            android:textColor="#FFF"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sinh Viên UTE"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04550092039"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04550092039"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04550092039"
+            android:textColor="#000"
+            android:textSize="24sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="04550092039"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Record"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp">
+        </TextView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
